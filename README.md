@@ -11,7 +11,7 @@ In the experiments, we analyze diverse setups with heterogeneous features, for a
 
 # Cite
 
-Roffo, G., Melzi, S., Castellani, U., Vinciarelli, A., & Cristani, M. (2020). Infinite Feature Selection: A Graph-based Feature Filtering Approach. In Proceedings of the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
+Roffo, G., Melzi, S., Castellani, U., Vinciarelli, A., & Cristani, M. (2020). Infinite Feature Selection: A Graph-based Feature Filtering Approach. In IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
 
 
 
