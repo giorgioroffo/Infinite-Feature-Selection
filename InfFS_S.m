@@ -77,7 +77,7 @@ SUBSET = RANKED(1:size_sub);
 
 end
 
-
+% Building the Graph - Supervised
 function [G, rho] = getGraphWeights( train_x , train_y,  alpha, eps )
 
 % Metric 1: Mutual Information
