@@ -16,8 +16,9 @@ In the experiments, we analyze diverse setups with heterogeneous features, for a
 
 Giorgio Roffo, Simone Melzi, Umberto Castellani, Alessandro Vinciarelli, and Marco Cristani (2020). Infinite Feature Selection: A Graph-based Feature Filtering Approach. In IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), DOI 10.1109/TPAMI.2020.3002843.
 
-Bibtex
-'''
+Here is the BibTeX citation code: 
+
+```
 @ARTICLE{GRoffo_InfFS_9119168, 
 author={G. {ROFFO} and s. {melzi} and U. {Castellani} and A. {Vinciarelli} and M. {Cristani}}, 
 journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
@@ -28,4 +29,7 @@ number={},
 pages={1-1},
 isnn={0162-8828},
 doi={10.1109/TPAMI.2020.3002843},}
-'''
+```
+
+
+
