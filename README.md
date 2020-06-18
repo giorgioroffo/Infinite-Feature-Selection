@@ -4,6 +4,9 @@ Giorgio Roffo, Simone Melzi, Umberto Castellani, Alessandro Vinciarelli and Marc
 
 Published in the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2020
 
+https://ieeexplore.ieee.org/document/9119168
+
+
 # Abstract
 We propose a filtering feature selection framework that considers a subset of features as a path in a graph, where a node is a feature and an edge indicates pairwise (customizable) relations among features, dealing with relevance and redundancy principles. 
 By two different interpretations (exploiting properties of power series of matrices and relying on Markov chains fundamentals) we can evaluate the values of paths (i.e., feature subsets) of arbitrary lengths, eventually go to infinite, from which we dub our framework Infinite Feature Selection (Inf-FS). Going to infinite allows to constrain the computational complexity of the selection process, and to rank the features in an elegant way, that is, considering the value of any path (subset) containing a particular feature. We also propose a simple unsupervised strategy to cut the ranking, so providing the subset of features to keep.
@@ -11,8 +14,23 @@ In the experiments, we analyze diverse setups with heterogeneous features, for a
 
 # Cite
 
-Roffo, G., Melzi, S., Castellani, U., Vinciarelli, A., & Cristani, M. (2020). Infinite Feature Selection: A Graph-based Feature Filtering Approach. In IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
+Giorgio Roffo, Simone Melzi, Umberto Castellani, Alessandro Vinciarelli, and Marco Cristani (2020). Infinite Feature Selection: A Graph-based Feature Filtering Approach. In IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), DOI 10.1109/TPAMI.2020.3002843.
 
+Here is the BibTeX citation code: 
+
+```
+@ARTICLE{GRoffo_InfFS_9119168, 
+    author={G. {ROFFO} and s. {melzi} and U. {Castellani} and A. {Vinciarelli} and M. {Cristani}}, 
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+    title={Infinite Feature Selection: a Graph-based Feature Filtering Approach}, 
+    year={2020}, 
+    volume={}, 
+    number={}, 
+    pages={1-1},
+    isnn={0162-8828},
+    doi={10.1109/TPAMI.2020.3002843},
+    }
+```
 
 
 
