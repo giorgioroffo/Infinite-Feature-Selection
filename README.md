@@ -20,15 +20,16 @@ Here is the BibTeX citation code:
 
 ```
 @ARTICLE{GRoffo_InfFS_9119168, 
-author={G. {ROFFO} and s. {melzi} and U. {Castellani} and A. {Vinciarelli} and M. {Cristani}}, 
-journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-title={Infinite Feature Selection: a Graph-based Feature Filtering Approach}, 
-year={2020}, 
-volume={}, 
-number={}, 
-pages={1-1},
-isnn={0162-8828},
-doi={10.1109/TPAMI.2020.3002843},}
+    author={G. {ROFFO} and s. {melzi} and U. {Castellani} and A. {Vinciarelli} and M. {Cristani}}, 
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+    title={Infinite Feature Selection: a Graph-based Feature Filtering Approach}, 
+    year={2020}, 
+    volume={}, 
+    number={}, 
+    pages={1-1},
+    isnn={0162-8828},
+    doi={10.1109/TPAMI.2020.3002843},
+    }
 ```
 
 
