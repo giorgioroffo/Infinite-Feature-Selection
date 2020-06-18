@@ -2,7 +2,7 @@
 
 Giorgio Roffo, Simone Melzi, Umberto Castellani, Alessandro Vinciarelli and Marco Cristani
 
-Published in the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2020
+Published in the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2020. 
 
 IEEE Article available at https://ieeexplore.ieee.org/document/9119168
 
@@ -47,7 +47,7 @@ Bubble plot showing the average ranking performance (y-axis) overall the dataset
 
 We evaluate the performance of the proposed approach on features learned by the very deep ConvNet.
  
-On the PASCAL 2007, we performed an experiment aimed at exploring the performances when spanning the number of features retained from 5% to 100%.  The idea is tocheckhowmuchdifferenceholdswhenkeepingasmallnumber of features with respect to the whole set. 
+On the PASCAL 2007, we performed an experiment aimed at exploring the performances when spanning the number of features retained from 5% to 100%.  The idea is to check how much difference holds when keeping a small number of features with respect to the whole set. 
 
 
 ![Alternate image text](https://github.com/giorgioroffo/Infinite-Feature-Selection/blob/master/figures/VOC07.png)
@@ -61,11 +61,11 @@ In this work we considered the feature selection problem under a brand-new persp
 
 # Code dependencies
 
-Please download the Feature Selection Library:
-
+All dependencies are contained in the Feature Selection Library.
+The MATLAB code is available at the following address: 
 https://it.mathworks.com/matlabcentral/fileexchange/56937-feature-selection-library
 
-and:
+Please remember to export the library path so that the methods can find all dependencies. For example:
 
 ```
 addpath('./_path_'); % dependencies
@@ -80,17 +80,15 @@ Giorgio Roffo, Simone Melzi, Umberto Castellani, Alessandro Vinciarelli, and Mar
 Here is the BibTeX citation code: 
 
 ```
-@ARTICLE{GRoffo_InfFS_9119168, 
+@ARTICLE{GRoffo_etAll_InfFS_9119168, 
     author={G. {ROFFO} and s. {melzi} and U. {Castellani} and A. {Vinciarelli} and M. {Cristani}}, 
     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
     title={Infinite Feature Selection: a Graph-based Feature Filtering Approach}, 
     year={2020}, 
-    volume={}, 
-    number={}, 
     pages={1-1},
     isnn={0162-8828},
     doi={10.1109/TPAMI.2020.3002843},
-    }
+}
 ```
 
 
