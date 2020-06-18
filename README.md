@@ -4,7 +4,9 @@ Giorgio Roffo, Simone Melzi, Umberto Castellani, Alessandro Vinciarelli and Marc
 
 Published in the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2020
 
-Article available at https://ieeexplore.ieee.org/document/9119168
+IEEE Article available at https://ieeexplore.ieee.org/document/9119168
+
+ArXiv version: https://arxiv.org/abs/2006.08184 
 
 
 # Abstract
@@ -55,6 +57,21 @@ Varying the cardinality of the selected features on VOC 2007. Mean average preci
 # Conclusions
 
 In this work we considered the feature selection problem under a brand-new perspective, i.e., as a regularization problem, where features are nodes in a weighted fully-connected graph, and a selection of l features is a path of length l through the nodes of the graph. Under this view, the proposed Inf-FS framework associates each feature to a score originating from pairwise functions (the weights of the edges) that measure relevance and non redundancy
+
+
+# Code dependencies
+
+Please download the Feature Selection Library:
+
+https://it.mathworks.com/matlabcentral/fileexchange/56937-feature-selection-library
+
+and:
+
+```
+addpath('./_path_'); % dependencies
+addpath(genpath('./_path_FSLIB_here_'));  % dependencies
+```
+
 
 # Cite
 
