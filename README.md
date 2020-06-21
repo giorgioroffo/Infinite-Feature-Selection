@@ -1,6 +1,8 @@
 # Infinite Feature Selection: A Graph-based Feature Filtering Approach
 
-Giorgio Roffo, Simone Melzi, Umberto Castellani, Alessandro Vinciarelli and Marco Cristani
+Giorgio Roffo*, Simone Melzi^, Umberto Castellani^, Alessandro Vinciarelli* and Marco Cristani^
+
+(*) University of Glasgow (UK) - (^) University of Verona (Italy)
 
 Published in the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2020. 
 
