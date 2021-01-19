@@ -74,6 +74,11 @@ addpath('./_path_'); % dependencies
 addpath(genpath('./_path_FSLIB_here_'));  % dependencies
 ```
 
+# Python code
+
+Infinite Feature Selection in Python can be found here:
+https://pypi.org/project/PyIFS/
+
 
 # Cite
 
