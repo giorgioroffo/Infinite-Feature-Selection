@@ -11,6 +11,7 @@ IEEE Article available at https://ieeexplore.ieee.org/document/9119168
 ArXiv version: https://arxiv.org/abs/2006.08184 
 
 
+
 # Abstract
 We propose a filtering feature selection framework that considers a subset of features as a path in a graph, where a node is a feature and an edge indicates pairwise (customizable) relations among features, dealing with relevance and redundancy principles. 
 By two different interpretations (exploiting properties of power series of matrices and relying on Markov chains fundamentals) we can evaluate the values of paths (i.e., feature subsets) of arbitrary lengths, eventually go to infinite, from which we dub our framework Infinite Feature Selection (Inf-FS). Going to infinite allows to constrain the computational complexity of the selection process, and to rank the features in an elegant way, that is, considering the value of any path (subset) containing a particular feature. We also propose a simple unsupervised strategy to cut the ranking, so providing the subset of features to keep.
@@ -18,7 +19,7 @@ In the experiments, we analyze diverse setups with heterogeneous features, for a
 
 # Index Terms
 
-Feature selection, ﬁlter methods, Markov chains
+Feature selection, feature reweighting, attention, Markov chains
 
 
 # Introduction
@@ -29,6 +30,39 @@ Our framework is composed by three main steps.
 In the ﬁrst step, an undirected fully-connected weighted graph is built modeling the expectation that features fi and fj are relevant and not redundant.
 In the second step, the weighted adjacency matrix associated to the graph is employed to assess the value of each feature while considering possible subsets of features (i.e., subsets of nodes) as they were paths of variable length. We compute a vector which, at the i-th entry, expresses the value (or probability) of having a particular feature in a subset of any length, summing for all the possible lengths, until inﬁnite. 
  In the third step, a threshold over the ranking is automatically selected by clustering over the ranked value. The rationale is to individuate at least two distributions, one which contains the features to keep with higher value, the other the ones to discard. 
+
+ # Infinite Feature Selection (PyIFS)
+
+The infinite feature selection package is available in Python and can be found [here](https://pypi.org/project/PyIFS/). It can be installed via pip:
+
+### Project Description
+**PyIFS**  
+A Python3 package for infinite feature selection.
+
+### Installation
+```bash
+$ pip install PyIFS
+```
+
+### How to Use
+```python
+import PyIFS
+inf = PyIFS.InfFS()
+[RANKED, WEIGHT] = inf.infFS(x, y, alpha, supervision, verbose)
+```
+
+### INPUT:
+- `x` is a T by n matrix, where T is the number of samples and n the number of features.
+- `y` is a column vector with class labels.
+- `alpha` is the mixing parameter.
+- `supervision` is a boolean variable (0 = unsupervised version, 1 = supervised version).
+- `verbose` is a boolean variable (0, 1).
+
+### OUTPUT:
+- `RANKED` are indices of columns in `x` ordered by attribute importance.
+- `WEIGHT` are attribute weights with large positive weights assigned to important attributes.
+
+
  
  # Experiments: Supervised VS Unsupervised 
  
@@ -73,11 +107,6 @@ Please remember to export the library path so that the methods can find all depe
 addpath('./_path_'); % dependencies
 addpath(genpath('./_path_FSLIB_here_'));  % dependencies
 ```
-
-# Python code
-
-Infinite Feature Selection in Python can be found here:
-https://pypi.org/project/PyIFS/
 
 
 # Cite
